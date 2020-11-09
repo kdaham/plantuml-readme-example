@@ -1,7 +1,7 @@
 @startuml Overview
 !include .pu/C4_Container.pu
 
-System(frontend, "Frontend", "React frontend")
+System(frontend, "Frontend", "React frontend.")
 System(backend, "Backend", "Java backend")
 System(idp, "Keycloak", "For OAuth/JWT")
 
