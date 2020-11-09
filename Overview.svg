@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="456px" preserveAspectRatio="none" style="width:338px;height:456px;" version="1.1" viewBox="0 0 338 456" width="338px" zoomAndPan="magnify"><defs/><g><!--MD5=[b1e3d2dcb3697de9e6328d1cb436cbc4]
+entity frontend--><rect fill="#1168BD" height="85.1875" style="stroke: #3C7FC0; stroke-width: 1.5;" width="127" x="73.5" y="8"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57" x="108.5" y="29.1387">«system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="81" x="96.5" y="46.8203">Frontend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="139" y="63.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="107" x="83.5" y="79.8857">React frontend.</text><!--MD5=[4e8ecd94af36cce41665c9f079adf9fd]
+entity backend--><rect fill="#1168BD" height="85.1875" style="stroke: #3C7FC0; stroke-width: 1.5;" width="110" x="6" y="184"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57" x="32.5" y="205.1387">«system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="76" x="23" y="222.8203">Backend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="63" y="239.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="90" x="16" y="255.8857">Java backend</text><!--MD5=[1729cd35d55f98b869577ea5b63d9f84]
+entity idp--><rect fill="#1168BD" height="85.1875" style="stroke: #3C7FC0; stroke-width: 1.5;" width="119" x="85.5" y="360"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57" x="116.5" y="381.1387">«system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="78" x="106" y="398.8203">Keycloak</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="147" y="415.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="99" x="95.5" y="431.8857">For OAuth/JWT</text><!--MD5=[bd606b2753a479dfaff996c7926d0075]
+link frontend to backend--><path d="M73.48,91.91 C63.97,100.93 55.51,111.33 50,123 C41.89,140.16 42.39,160.69 45.75,178.85 " fill="none" id="frontend-&gt;backend" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="46.77,183.91,48.9165,174.2979,45.7839,179.0082,41.0736,175.8756,46.77,183.91" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="40" x="103" y="136.0669">Label</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="144" x="51" y="150.2715">[GraphQL API requests]</text><!--MD5=[580f6b02aca673760d7262ec11e6b054]
+link backend to idp--><path d="M64.54,269.01 C67.41,288.33 72.6,311.14 82,330 C86.5,339.04 92.44,347.83 98.86,355.97 " fill="none" id="backend-&gt;idp" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="102.06,359.92,99.5102,350.4069,98.9157,356.0324,93.2901,355.4379,102.06,359.92" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="40" x="119" y="312.0669">Label</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="112" x="83" y="326.2715">[Token validation]</text><!--MD5=[02a52a1ebaea5c5ec0c00c369e993318]
+link frontend to idp--><path d="M182.28,93.12 C189.53,102.2 195.97,112.32 200,123 C232.51,209.07 229.62,242.9 200,330 C196.98,338.88 192.36,347.52 187.06,355.55 " fill="none" id="frontend-&gt;idp" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="184.05,359.94,192.4366,354.7762,186.876,355.8152,185.8369,350.2546,184.05,359.94" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="40" x="255" y="224.0669">Label</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="102" x="224" y="238.2715">[Authentication]</text><!--MD5=[c0c5c947a6b2386920f02592535fed0c]
+@startuml Overview
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+
+
+
+
+
+
+rectangle "==Frontend\n\n React frontend." <<system>> as frontend
+rectangle "==Backend\n\n Java backend" <<system>> as backend
+rectangle "==Keycloak\n\n For OAuth/JWT" <<system>> as idp
+
+frontend - -> backend : "===Label\n//<size:12>[GraphQL API requests]</size>//"
+backend - -> idp : "===Label\n//<size:12>[Token validation]</size>//"
+frontend - -> idp : "===Label\n//<size:12>[Authentication]</size>//"
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 10:22:07 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.9+11-Ubuntu-0ubuntu1
+Operating System: Linux
+Default Encoding: ANSI_X3.4-1968
+Language: en
+Country: US
+--></g></svg>
