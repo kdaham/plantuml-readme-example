@@ -1,4 +1,4 @@
-@startuml Overview
+@startuml System_Context
 !include .pu/C4_Container.pu
 
 LAYOUT_TOP_DOWN
