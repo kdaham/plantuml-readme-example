@@ -1,0 +1,12 @@
+@startuml Overview
+!include .pu/C4_Container.pu
+
+LAYOUT_TOP_DOWN
+'LAYOUT_WITH_LEGEND
+
+Person(user, "User", "")
+System(system, "Important System", "Handles important user functions.")
+
+Rel(user, system, "Uses", "HTTPS")
+
+@enduml

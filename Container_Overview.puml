@@ -1,0 +1,20 @@
+@startuml Overview
+!include .pu/C4_Container.pu
+
+LAYOUT_TOP_DOWN
+'LAYOUT_WITH_LEGEND
+
+ContainerDb(db, "Database", "Redis", "Stores important system data.")
+Container(idp, "OpenID Provider", "Keycloak", "Handles API tokens")
+
+System_Boundary(c1, "Important system") {
+    Container(frontend, "Frontend", "Javascript, Vue.js", "Nifty user interface")
+    Container(backend, "API Backend", "Java, Microprofile, Quarkus", "Important business logic")
+}
+
+Rel(frontend, backend, "Uses", "GraphQL")
+Rel(backend, db, "Read/Write", "Redis")
+Rel_Neighbor(backend, idp, "Validate", "OIDC/JWT")
+Rel_Neighbor(frontend, idp, "Authenticate", "OIDC/JWT")
+
+@enduml
