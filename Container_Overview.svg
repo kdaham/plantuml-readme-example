@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="609px" preserveAspectRatio="none" style="width:512px;height:609px;" version="1.1" viewBox="0 0 512 609" width="512px" zoomAndPan="magnify"><defs/><g><!--MD5=[84dda40acb3410cad7262261daba2aaf]
+cluster c1--><rect fill="#FFFFFF" height="372" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="226" x="22" y="24"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="93" y="38.9951">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="160" x="55" y="57.1484">Important system</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="104" y="72.0605">[System]</text><!--MD5=[b1e3d2dcb3697de9e6328d1cb436cbc4]
+entity frontend--><rect fill="#438DD5" height="99.1563" style="stroke: #3C7FC0; stroke-width: 1.5;" width="148" x="78" y="91"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="115" y="112.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="81" x="111.5" y="129.8203">Frontend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="115" x="94.5" y="144.7324">[Javascript, Vue.js]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="154" y="160.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="128" x="88" y="176.8545">Nifty user interface</text><!--MD5=[4e8ecd94af36cce41665c9f079adf9fd]
+entity backend--><rect fill="#438DD5" height="99.1563" style="stroke: #3C7FC0; stroke-width: 1.5;" width="194" x="38" y="281"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="98" y="302.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="112" x="79" y="319.8203">API Backend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="174" x="48" y="334.7324">[Java, Microprofile, Quarkus]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="137" y="350.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="169" x="50.5" y="366.8545">Important business logic</text><!--MD5=[7468467f3b6b392f1d176d828c753b77]
+entity db--><path d="M38.5,483 C38.5,473 135,473 135,473 C135,473 231.5,473 231.5,483 L231.5,587.4531 C231.5,597.4531 135,597.4531 135,597.4531 C135,597.4531 38.5,597.4531 38.5,587.4531 L38.5,483 " fill="#438DD5" style="stroke: #3C7FC0; stroke-width: 1.5;"/><path d="M38.5,483 C38.5,493 135,493 135,493 C135,493 231.5,493 231.5,483 " fill="none" style="stroke: #3C7FC0; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="98" y="508.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="83" x="93.5" y="525.8203">Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="43" x="113.5" y="540.7324">[Redis]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="137" y="556.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="169" x="48.5" y="572.8545">Stores important system</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="34" x="118" y="589.1514">data.</text><!--MD5=[1729cd35d55f98b869577ea5b63d9f84]
+entity idp--><rect fill="#438DD5" height="99.1563" style="stroke: #3C7FC0; stroke-width: 1.5;" width="167" x="334.5" y="281"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="381" y="302.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="147" x="344.5" y="319.8203">OpenID Provider</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="66" x="385" y="334.7324">[Keycloak]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="420" y="350.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="351.5" y="366.8545">Handles API tokens</text><!--MD5=[bd606b2753a479dfaff996c7926d0075]
+link frontend to backend--><path d="M147.58,190.4 C145.22,216.52 142.31,248.71 139.88,275.55 " fill="none" id="frontend-&gt;backend" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="139.4,280.84,144.2073,272.2441,139.8578,275.861,136.2409,271.5115,139.4,280.84" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="35" x="160" y="233.0669">Uses</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="63" x="146" y="247.2715">[GraphQL]</text><!--MD5=[164906b3333609339db5c9ea3f301200]
+link backend to db--><path d="M135,380 C135,406.22 135,438.98 135,467.54 " fill="none" id="backend-&gt;db" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="135,472.82,139,463.82,135,467.82,131,463.82,135,472.82" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="136" y="425.0669">Read/Write</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="43" x="155.5" y="439.2715">[Redis]</text><!--MD5=[580f6b02aca673760d7262ec11e6b054]
+link backend to idp--><path d="M232.39,330.5 C263.68,330.5 298.16,330.5 328.83,330.5 " fill="none" id="backend-&gt;idp" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="334.11,330.5,325.11,326.5,329.11,330.5,325.11,334.5,334.11,330.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="61" x="252.75" y="309.5669">Validate</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="66" x="250.25" y="323.7715">[OIDC/JWT]</text><!--MD5=[02a52a1ebaea5c5ec0c00c369e993318]
+link frontend to idp--><path d="M220.85,190.16 C258.87,217.03 306.09,250.41 344.78,277.75 " fill="none" id="frontend-&gt;idp" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="348.98,280.72,343.9363,272.2606,344.896,277.8355,339.3211,278.7951,348.98,280.72" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="94" x="301" y="233.0669">Authenticate</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="66" x="315" y="247.2715">[OIDC/JWT]</text><!--MD5=[26c89a83157288c853b68bb663b80c4a]
+@startuml Container_Overview
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+
+
+
+
+
+top to bottom direction
+
+database "==Database\n//<size:12>[Redis]</size>//\n\n Stores important system data." <<container>> as db
+rectangle "==OpenID Provider\n//<size:12>[Keycloak]</size>//\n\n Handles API tokens" <<container>> as idp
+
+rectangle "==Important system\n<size:12>[System]</size>" <<boundary>> as c1 {
+    rectangle "==Frontend\n//<size:12>[Javascript, Vue.js]</size>//\n\n Nifty user interface" <<container>> as frontend
+    rectangle "==API Backend\n//<size:12>[Java, Microprofile, Quarkus]</size>//\n\n Important business logic" <<container>> as backend
+}
+
+frontend - -> backend : "===Uses\n//<size:12>[GraphQL]</size>//"
+backend - -> db : "===Read/Write\n//<size:12>[Redis]</size>//"
+backend -> idp : "===Validate\n//<size:12>[OIDC/JWT]</size>//"
+frontend -> idp : "===Authenticate\n//<size:12>[OIDC/JWT]</size>//"
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 10:22:07 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.9+11-Ubuntu-0ubuntu1
+Operating System: Linux
+Default Encoding: ANSI_X3.4-1968
+Language: en
+Country: US
+--></g></svg>
